@@ -5,20 +5,20 @@
 class Ec2connect < Formula
   desc "ec2connect is a convenient SSH wrapper around EC2 instance connect"
   homepage "https://github.com/escaletech/ec2connect"
-  version "0.1.3"
+  version "0.1.4"
   bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/escaletech/ec2connect/releases/download/v0.1.3/ec2connect_0.1.3_Darwin_x86_64.tar.gz"
-      sha256 "2fa9fd61dd9d95c89987e5072a72218070395467da0841cca3818991fbcd5b0c"
+      url "https://github.com/escaletech/ec2connect/releases/download/v0.1.4/ec2connect_0.1.4_Darwin_x86_64.tar.gz"
+      sha256 "bce01488b78519b869bbb60f3a9f57b2bf2a6d3c7a39756f631ec4d0a4d14e1f"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/escaletech/ec2connect/releases/download/v0.1.3/ec2connect_0.1.3_Linux_x86_64.tar.gz"
-      sha256 "2316c588a5c997a709829385e8236f7893be98c717181edb5d7bfc1a9d2088e6"
+      url "https://github.com/escaletech/ec2connect/releases/download/v0.1.4/ec2connect_0.1.4_Linux_x86_64.tar.gz"
+      sha256 "e7615be7aee8d1af8958f50a269b82cb80fcf81690607d5c68773292eae6cbe6"
     end
   end
 
